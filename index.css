@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+#big{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#big .small{
+    height: 560px;
+    width: 500px;
+    background-image: url(https://images.unsplash.com/photo-1618601425990-602ac96f6cff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRhcmslMjBhYnN0cmFjdHxlbnwwfHwwfHx8MA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border-radius: 10px;
+  
+
+}
+#big .small .container{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 0.219);
+   
+    
+}
+#big .small .container h1{
+    font-family:  Helvetica
+    Arial
+    sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    
+    
+}
+#big .small .container input{
+    
+    height: 41px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: fantasy;
+    outline:none;
+    cursor:text;
+}
+#big .small .container i{
+   display: block;
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+    cursor: pointer;
+}
+#big .small .container i:hover{
+    color: white;
+}
+button{
+    margin-top: 55px;
+    height: 41px;
+    font-family: Helvetica
+    Arial
+    sans-serif;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+    color:black;
+    font-size: 30px;
+    background-color: aliceblue;
+}
+button:hover{
+    background: linear-gradient(30deg,gold,aqua,white,rgb(243, 73, 6),green);
+}
+::placeholder{
+    color: white;
+    font-family:  Helvetica Arial sans-serif;
+}
+#big .small .container h4{
+    margin-top: 10px;
+}
+.sam{
+    display: flex;
+    font-size: 30px;
+    gap: 10px;
+ 
+}
+#big .small .container .sam i{
+    position: relative;
+    top: 10px;
+    left:140px;
+}
+.container p{
+   
+    color: white;
+    margin-top: 10px;
+    margin-left: 120px;
+    
+}
+
+@media screen and (max-width:500px){
+    .big .small{
+        width: 400px;
+        height: 550px;
+        border-radius: 10px;
+
+    }
+    .small .container{
+        width:300px;
+        
+    }
+    .sam i{
+        position: relative;
+        left: 90px;
+    }
+    
+}  @media screen and (max-width:400px) {
+    .big .small{
+        width: 350px;
+    }
+    .small .container{
+        width: 300px;
+    }
+    .sam i{
+        position: relative;
+        left: 90px;
+    }
+    
+}
